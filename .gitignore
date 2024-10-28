@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+.venv/
+.env
+notebooks/.ipynb_checkpoints/
+notebooks/.env
+notebooks/.DS_Store
+.DS_Store
+.python-version
+hello.py
+pyproject.toml
+uv.lock
+*.in
