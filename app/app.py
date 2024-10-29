@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the saved model artifacts
-model_artifacts = joblib.load('../model/model_with_scaler_and_encoder.pkl')
+model_artifacts = joblib.load('model_with_scaler_and_encoder.pkl')
 scaler = model_artifacts['scaler']
 label_encoder = model_artifacts['encoder']
 model = model_artifacts['model']
